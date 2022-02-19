@@ -17,6 +17,7 @@
     "cors": "^2.8.5",
     "csv-parse": "^5.0.4",
     "express": "^4.17.2",
+    "mongoose": "^6.2.2",
     "pm2": "^5.1.2"
   },
   "devDependencies": {
