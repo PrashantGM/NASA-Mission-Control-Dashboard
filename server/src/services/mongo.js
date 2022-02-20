@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGO_URL =
-  "mongodb+srv://admin:admin%40123@nasacluster.7wub8.mongodb.net/nasa?retryWrites=true&w=majority";
+const MONGO_URL = process.env.MONGO_URL;
 
 mongoose.connection.once("open", () => {
   console.log("Connected to database Successfuly");
@@ -12,6 +11,7 @@ mongoose.connection.on("error", (err) => {
 });
 
 async function mongoConnect() {
+  console.log(MONGO_URL);
   await mongoose.connect(MONGO_URL);
 }
 
