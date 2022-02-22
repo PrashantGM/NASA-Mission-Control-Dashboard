@@ -24,9 +24,5 @@
   "bugs": {
     "url": "https://github.com/PrashantGM/NASA-Mission-Control-Dashboard/issues"
   },
-  "homepage": "https://github.com/PrashantGM/NASA-Mission-Control-Dashboard#readme",
-  "dependencies": {
-    "axios": "^0.26.0",
-    "morgan": "^1.10.0"
-  }
+  "homepage": "https://github.com/PrashantGM/NASA-Mission-Control-Dashboard#readme"
 }
